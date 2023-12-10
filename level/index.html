@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="shortcut icon" type="image/img/icoon-ss.png" href="favicon.ico" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Investor</title>
+</head>
+
+<body>
+  <!-- Login -->
+  <div class="modal" id="modal">
+    <h3>Login</h3>
+    <div>
+      <input placeholder="Email" type="text" class="firds-input" id="Email-log" /><br />
+      <div class="password-log">
+        <input placeholder="Password" type="password" class="password-text-log" id="password-text-log" />
+        <a href="#" class="password-control-log"></a>
+      </div>
+    </div>
+    <div class="forgot"><a href="#">Forgot password?</a><br /></div>
+    <button id="login-bt">Login</button>
+  </div>
+
+  <div class="darkness" id="darkness"></div>
+
+  <!-- Registr -->
+
+  <div class="modalRegistr" id="modalRegistr">
+    <h3>Register</h3>
+    <div>
+      <input placeholder="Email" type="text" class="firds-input" id="Email-reg" /><br />
+      <div class="password-1">
+        <input placeholder="Password" type="password" class="password-text" />
+        <a href="#" class="password-control"></a>
+      </div>
+      <div class="password-2">
+        <input placeholder="Re-type password" type="password" id="re-password-text" />
+        <a href="#" class="re-password-control"></a>
+      </div>
+    </div>
+    <div class="forgot">
+      <input style="height: 20px; width: 20px; margin: 0 5px 0 0;" type="checkbox">
+      <p>
+        I agree with <a href="#">Terms of Service</a> &
+        <a href="#">Privacy Policy</a>
+      </p>
+    </div>
+    <button id="registrBt">Register</button>
+  </div>
+
+  <div class="darkness-2" id="darkness2"></div>
+
+
+  <!-- burger-menu -->
+  <div class="burger-menu">
+    <nav class="nav-burger">
+      <div>
+        <div class="content-burger" id="content-burger">
+          <div class="shift-back">
+            <svg xmlns="http://www.w3.org/2000/svg" height="1em" class="remove" id="icon-remove" viewBox="0 0 384 512">
+              <path
+                d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+            </svg>
+          </div>
+          <li> <a href="#Home">Home</a></li>
+
+
+          <li>
+            <div>
+              <a href="#" class="slip-textP" id="slip-Pricing2">Pricing
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon-Pric" id="iconPricing2">
+                  <path
+                    d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                </svg>
+              </a>
+              <div class="menu-Pricing-text2" id="menuPricing2">
+                <a href="mistake/index.html">Pricing-1</a>
+                <a href="mistake/index.html">Pricing-2</a>
+                <a href="mistake/index.html">Pricing-3</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="slipTextF2">
+            <div>
+              <a href="#" class="slip-textF" id="slip-Features2">Features
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon-Feat" id="iconFeatures2">
+                  <path
+                    d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                </svg>
+              </a>
+              <div class="menu-Features-text2" id="menuFeatures2">
+                <a href="mistake/index.html">Features-1</a>
+                <a href="mistake/index.html">Features-2</a>
+                <a href="mistake/index.html">Features-3</a>
+              </div>
+            </div>
+          </li>
+          <li class="blog"><a href="#Blog">Blog</a></li>
+          <li><a href="#plus-container">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <div class="loginAdap">
+              <img src="image/icon/Iconly-Light-Shield Done.svg" alt="" />
+              <p id="loginAdap">Secure Login</p>
+            </div>
+          </li>
+          <li>
+            <div class="registrAdap">
+              <p id="registrAdap">Register</p>
+            </div>
+          </li>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container">
+    <header class="header">
+      <div class="header-content">
+        <img src="image/icon/logo.svg" alt="" />
+
+        <nav class="nav">
+          <a href="#Home">Home</a>
+
+          <div>
+            <a href="#" class="slip-textP2" id="slip-Pricing">Pricing
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="iconPricing">
+                <path
+                  d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+              </svg>
+            </a>
+            <div class="menu-Pricing-text" id="menuPricing">
+              <a href="../Invest/mistake/index.html">Pricing-1</a>
+              <a href="../Invest/mistake/index.html">Pricing-2</a>
+              <a href="../Invest/mistake/index.html">Pricing-3</a>
+            </div>
+          </div>
+
+          <div>
+            <a href="#" class="slip-textF2" id="slip-Features">Features
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="iconFeatures">
+                <path
+                  d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+              </svg>
+            </a>
+            <div class="menu-Features-text" id="menuFeatures">
+              <a href="../Invest/mistake/index.html">Features-1</a>
+              <a href="../Invest/mistake/index.html">Features-2</a>
+              <a href="../Invest/mistake/index.html">Features-3</a>
+            </div>
+          </div>
+          <a href="#Blog">Blog</a>
+          <a href="#plus-container">About Us</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="header-contact">
+          <div class="login">
+            <img src="image/icon/Iconly-Light-Shield Done.svg" alt="" />
+            <p id="login">Secure Login</p>
+          </div>
+          <div class="registr">
+            <p id="registr">Register</p>
+          </div>
+          <div class="menu-output" id="menu-output">
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <div class="container">
+    <main class="main" id="Home">
+      <div class="main-content">
+        <h1>Invest For The Future, Make Your Life Events The Happiest!</h1>
+
+        <div class="menu-text">
+          <a href="../Invest/mistake/index.html">Get Started</a>
+
+          <div class="play-content">
+            <i class="fa fa-play-circle" aria-hidden="true"></i>
+            <a href="../Invest/mistake/index.html">Watch Video</a>
+          </div>
+        </div>
+
+        <div class="raiting">
+          <img src="image/icon/rating.svg" alt="" />
+          <p>4.8 Out Of 5 Ratinds In Ladio Services</p>
+        </div>
+      </div>
+
+      <div class="main-content">
+        <img class="fon-1" src="image/img/fon-1.svg" alt="" />
+
+        <div class="fon-2">
+          <img src="image/img/fon-2.svg" alt="" />
+        </div>
+      </div>
+    </main>
+
+    <div class="plus-content plus-icon">
+      <div class="cont-plus">
+        <img src="image/icon/icon-plus-1.svg" alt="" />
+        <div class="plus-text">
+          <p>149+</p>
+          <p>Registered companies</p>
+        </div>
+      </div>
+
+      <div class="cont-plus">
+        <img src="image/icon/icon-plus-2.svg" alt="" />
+        <div class="plus-text">
+          <p>149+</p>
+          <p>The disbursed funds</p>
+        </div>
+      </div>
+
+      <div class="cont-plus">
+        <img src="image/icon/icon-plus-3.svg" alt="" />
+        <div class="plus-text">
+          <p>149+</p>
+          <p>Fintech project completed</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="plus-container">
+    <div class="plus-content about-content">
+      <img src="image/img/fon-plus.svg" alt="" class="plus-img" />
+      <div class="plus-text-content">
+        <h3>About us</h3>
+        <h2>We Will Give The Best For You</h2>
+        <p class="about-text">
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam
+        </p>
+      </div>
+    </div>
+
+    <div class="plus-content-2">
+      <div>
+        <h3>services</h3>
+        <h2>Leading The Way To Better Business In Finacial Services</h2>
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperian
+        </p>
+
+        <div class="set-serve">
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+
+      <div class="img-servis">
+        <div class="servis-1">
+          <div class="icon-grafic">
+            <img src="image/img/servis.svg" alt="">
+          </div>
+          <img class="osnova-static" src="image/img/servis-2.svg" alt="">
+          <div class="icon-servis">
+            <img src="image/icon/servis-icon.svg" alt="">
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="container">
+    <div class="needs-container">
+      <div class="needs-content">
+        <div>
+          <div class="needs-block ned-cont-1">
+            <img src="image/icon/needs-1.svg" alt="" />
+            <div class="needs-text">
+              <p>Best Trading Application</p>
+              <p>Trade and monitor accounts</p>
+            </div>
+          </div>
+
+          <div class="needs-block">
+            <img src="image/icon/needs-2.svg" alt="" />
+            <div class="needs-text">
+              <p>Best Trading Application</p>
+              <p>Trade and monitor accounts</p>
+            </div>
+          </div>
+
+          <div class="needs-block ned-cont-1 ned-cont-active">
+            <img src="image/icon/needs-3.svg" alt="" />
+            <div class="needs-text">
+              <p>Best Trading Application</p>
+              <p>Trade and monitor accounts</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="plus-text-content needs-plus-content">
+          <h3>PRODUCT</h3>
+          <h2>We Understand What You Needs</h2>
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam
+          </p>
+        </div>
+      </div>
+
+      <div class="continium-needs">
+        <div class="needs-block">
+          <img src="image/icon/needs-4.svg" alt="" />
+          <div class="needs-text">
+            <p>Digital Token</p>
+            <p>Built on blockchain network</p>
+          </div>
+        </div>
+
+        <div class="needs-block">
+          <img src="image/icon/needs-5.svg" alt="" />
+          <div class="needs-text">
+            <p>Blockchain</p>
+            <p>Digital investment data storage</p>
+          </div>
+        </div>
+
+        <div class="needs-block">
+          <img src="image/icon/needs-6.svg" alt="" />
+          <div class="needs-text">
+            <p>Fintech</p>
+            <p>Easy financial transactions</p>
+          </div>
+        </div>
+
+        <div class="needs-block">
+          <img src="image/icon/needs-7.svg" alt="" />
+          <div class="needs-text">
+            <p>Big Data</p>
+            <p>Processing & analyzing data sets</p>
+          </div>
+        </div>
+
+        <div class="needs-block">
+          <img src="image/icon/needs-8.svg" alt="" />
+          <div class="needs-text">
+            <p>Asset Tokenization</p>
+            <p>Best digital tokens</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <section class="reviews-content">
+      <div>
+        <h3>TESTIMONIALS</h3>
+        <h2>
+          What Our Happy<br />
+          Clients Say
+        </h2>
+
+        <div class="reviews-block">
+          <div class="klient-reviews-block">
+            <img src="image/img/user-foto-1.svg" alt="" />
+            <div>
+              <img src="image/icon/rating.svg" alt="" />
+              <p>
+                This platform is amazing, i can’t say anything about this
+                platform, really helpful!
+              </p>
+              <h4>Alexander Blue</h4>
+              <h5>CEO and Founder</h5>
+            </div>
+          </div>
+
+          <div class="klient-reviews-block active">
+            <img src="image/img/user-foto-2.svg" alt="" />
+            <div>
+              <img src="image/icon/rating-plox.svg" alt="" />
+              <p>
+                This platform is amazing, i can’t say anything about this
+                platform, really helpful!
+              </p>
+              <h4>Alexander Blue</h4>
+              <h5>CEO and Founder</h5>
+            </div>
+          </div>
+
+          <div class="klient-reviews-block">
+            <img src="image/img/user-foto-3.svg" alt="" />
+            <div>
+              <img src="image/icon/rating.svg" alt="" />
+              <p>
+                This platform is amazing, i can’t say anything about this
+                platform, really helpful!
+              </p>
+              <h4>Alexander Blue</h4>
+              <h5>CEO and Founder</h5>
+            </div>
+          </div>
+
+          <div class="klient-reviews-block">
+            <img src="image/img/user-foto-4.svg" alt="" />
+            <div>
+              <img src="image/icon/rating-plox-1.svg" alt="" />
+              <p>
+                This platform is amazing, i can’t say anything about this
+                platform, really helpful!
+              </p>
+              <h4>Alexander Blue</h4>
+              <h5>CEO and Founder</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="container">
+    <div class="plus-content blog-content" id="Blog">
+      <div class="plus-text-content">
+        <h3>SUBSCRIBE</h3>
+        <h2>Oin Our Mail List</h2>
+        <p>
+          Subscribe to be the first to hear about upcoming fintech<br />
+          services!
+        </p>
+
+        <div>
+          <input placeholder="Enter your email address" type="text" />
+          <div class="button-content">
+            <button>Join Now</button>
+          </div>
+        </div>
+      </div>
+      <img src="image/img/fon-list.svg" alt="" class="col" />
+    </div>
+  </div>
+
+  <footer class="new-content" id="contact">
+    <div class="container">
+      <div class="content-min-new">
+        <div>
+          <img src="image/icon/logo.svg" alt="" />
+          <p>
+            Sed ut perspiciatis undmnis iste natus<br />
+            error sit voluptatem accu santium<br />
+            dolore udantiuy totam.
+          </p>
+        </div>
+        <div class="new-content">
+          <div>
+            <h3 id="glavResources">Resources</h3>
+            <nav class="contact-text" id="contactTextR">
+              <li>Download</li>
+              <li>Funding</li>
+              <li>Services</li>
+            </nav>
+          </div>
+        </div>
+
+        <div class="new-content">
+          <div>
+            <h3 id="glavContact">Company</h3>
+            <nav class="contact-text" id="contactTextC">
+              <li>Contanct and Support</li>
+              <li>Success History</li>
+              <li>Setting & Privacy</li>
+            </nav>
+          </div>
+        </div>
+
+        <div class="new-content">
+          <div>
+            <h3 id="glavContactUS">Conatct Us</h3>
+            <nav class="contact-text" id="contactTextCU">
+              <li>Location</li>
+              <li>Email</li>
+              <li>Telephone</li>
+            </nav>
+          </div>
+        </div>
+
+        <div class="new-content">
+          <div>
+            <h3 id="glavSocial">Social Media</h3>
+            <nav class="contact-text" id="contactTextS">
+              <li>Facebook</li>
+              <li>Instagram</li>
+              <li>Twitter</li>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="line"></div>
+      <div class="info-servis">
+        <p>© 2022 Level WordPress theme by UiCore. All Rights Reserved.</p>
+        <div class="icon-sotset">
+          <a class="btn" href="https://ru-ru.facebook.com/">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+
+          <a class="btn" href="https://www.instagram.com/">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a class="btn" href="https://twitter.com/">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
